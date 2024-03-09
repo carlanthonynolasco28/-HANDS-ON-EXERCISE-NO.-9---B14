@@ -1,0 +1,111 @@
+body {
+    background-color: yellow;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    justify-content: space-between;
+    gap: 12px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+main section {
+    margin: 30px;
+}
+
+header h1 {
+    border: 1px solid;
+    width: 180px;
+    background-color: white;
+
+}
+
+header {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    padding-bottom: 40px padding-top: 50px;
+}
+
+.box {
+    text-align: center;
+    border: 2px solid;
+    width: 180px;
+    background-color: whitesmoke;
+
+}
+
+.title-1 {
+    display: grid;
+    border: 2px solid;
+    background-color: white;
+    height: 90%;
+    margin-top: 35px;
+    
+}
+
+.title-2 {
+    display: grid;
+    border: 2px solid;
+    background-color: white;
+    height: 90%;
+    margin-top: 35px;
+    
+}
+
+.title-3 {
+    display: grid;
+    border: 2px solid;
+    background-color: white;
+    height: 90%;
+    margin-top: 35px;
+
+}
+
+.title-4 {
+    display: grid;
+    border: 2px solid;
+    background-color: white;
+    height: 90%;
+}
+
+.title-5 {
+    display: grid;
+    border: 2px solid;
+    background-color: white;
+    height: 90%;
+}
+
+.title-6 {
+    display: grid;
+    border: 2px solid;
+    background-color: white;
+    height: 90%;
+    margin-bottom: 35px;
+}
+
+.p-color {
+    color: blue;
+}
+
+@media (max-width: 760) {
+
+    header,
+    article .title-1,
+    article .title-2,
+    article .title-3,
+    article .title-4,
+    article .title-5,
+    article #title-6,
+    article .box,
+    article .blue {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+}
